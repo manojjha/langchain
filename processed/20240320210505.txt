@@ -1,0 +1,142 @@
+Birla Institute of Technology & Science, Pilani  
+Work Integrated Learning Programmes Division  
+2023-2024 
+ 
+Mid-Semester Test  
+(EC-3 Regular)  
+ 
+Course No.   :  DSECSZG524  
+Course Title   : Deep Learning  
+Nature of Exam  : Open  Book  
+Weightage   : 40%  
+Duration   : 2 Hours   
+Date of Exam   : 11-02-2024 (AN) 
+Note  to Students :  
+1. Please follow all the Instructions to Candidates  given on the cover page of the answer book.  
+2. All parts of a question should be answered consecutively. Each answer should start from a fresh page.   
+3. Assumptions made if any, should be stated clearly at the beginning of your answer.  
+4. Students shall consider using  Google collab  where ever require d.  
+ 
+Q.1. Answer the following:                  [10 Marks]  
+A. Consider a CNN architecture with an input image of size 128×128×3. The architecture 
+consists of three convolutional layers with 32 and 64 filters of size 3 × 3 respectively, 
+followed by a max -pooling layer of size 2 × 2. Calculate the output dimensions after each 
+layer.  [4M]  
+B. If the input image size is changed to 64×64, how will it affect the number of trainable 
+parameters?  [1M]  
+C. Compute the trainable parameters are there in the first convolutional layer. [1M]  
+D. Write Python code to implement this architecture using TensorFlow Keras.  [2M]  
+E. Given a 3x3 input matrix I and a 2x2 filter F,  
+ 
+Compute the output matrix after applying the convolution operation. If your BITS ID is 
+odd use a stride of 1 otherwise use a st ride of 2. Assume zero -padding.  [2M]  
+ 
+Rubrics a nd Solution:  
+ 
+ 
+ 
+ 
+ 
+No. of Pages        =  03 
+No. of Questions =  05  
+ 
+ 
+ 
+ 
+ 
+ 
+Q.2. Answer the following:                 [10 Marks]  
+A. A data scientist wants to build a Deep Learning model using a single LSTM cell for 
+forecasting a time series. The training dataset has several records with 15 time  steps  each. 
+Each time step consists of three -feature normalized numeric data. If the total learnable 
+parameters in this model are 180, what is the dimensionality of the short state?                                                                 
+[3M]  
+B. A security  company wants to use AI to analyze surveillance footage and automatically 
+detect unusual activities. The system needs to be able to analyze hours of footage and 
+identify moments of interest. Describe the neural network architecture you would 
+recommend for  this task. Justify your choice. Explain how you would handle the temporal 
+dependencies in the video data. [3M]  
+C. A company wants to perform sentiment analysis on customer reviews. Each review is a 
+sequence of words, and the reviews vary in length. Describe the neural network architecture 
+you would recommend for this task. Justify your choice.  [2M]  
+D. An automotive company is developing an autonomous vehicle. One of the challenges is to 
+recognize traffic signs and signals accurately in different lightin g conditions. Describe the 
+neural network architecture you would recommend for this task, and justify your choice.  
+Discuss how you would ensure the model generalizes well to different lighting conditions.  
+[2M] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rubrics and Solution:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q.3. Consider the following:                [10 Marks]  
+ 
+SEQ1: {100,200,300,400,500,600,700,800,900}  
+SEQ2: {90,190,290,390,490,590,690,790,89}  
+OUTPUT = (SEQ1[i] + SEQ2[i])  
+Consider implementing an LSTM model for prediction and perform predictions using the 
+trained model. The code should demonstrate,  
+1. A function to split a multivariate sequence into samples.  [2M]  
+2. LSTM model definition and training (50 units, ReLU activation, dense layer with a single 
+output unit, 20 epochs)  [3M] 
+3. A stacked LSTM to handle multiple parallel serie s. [3M]  
+4. Evaluate the model performance using metrics  (any two)  of your choice.  [2M] 
+ 
+ 
+ 
+ 
+ 
+(Note: Free to use Google Colab and submit the solution or to provide the write up)  
+Rubrics and Solution:  
+ 
+Refer t o the ipynb f ile attached .  
+ 
+ 
+Q.4. A RNN is shown below with one RNN layer of two tanh neurons and a fully connected output 
+layer with one sigmoid n euron. A record of input with one time -step and two input features is 
+processed with it. Calculate the output of the network assuming all weights and biases are 
+initialized with value 0.12 and the previous state as [0.1, 0.2]. The arrows shown in the diagr am 
+are representative.                                                                            [5 Marks]  
+ 
+ 
+Rubrics and Solution:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Q.5. A data science engineer proposed an LSTM network (shown below) for a deep learning 
+problem. Calculate the parameters to be learned in it. Th e dimensions are also shown in the 
+parentheses.                                                       [5 Marks]  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rubrics and Solution:  
+ 
+                
+***********
